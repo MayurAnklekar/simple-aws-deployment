@@ -50,8 +50,8 @@ function App() {
           Hello React
         </a>
       </header>
-      {/* <NewExpense onAddExpense={addExpenseHandler} />
-      <Expenses expenses={expenses} /> */}
+      <NewExpense onAddExpense={addExpenseHandler} />
+      <Expenses expenses={expenses} />
     </div>
   );
 }
