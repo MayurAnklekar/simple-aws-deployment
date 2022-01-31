@@ -39,7 +39,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Learn devops v2
+          React application
         </p>
         <a
           className="App-link"
@@ -47,11 +47,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Devops
+          Hello React
         </a>
       </header>
-      <NewExpense onAddExpense={addExpenseHandler} />
-      <Expenses expenses={expenses} />
+      {/* <NewExpense onAddExpense={addExpenseHandler} />
+      <Expenses expenses={expenses} /> */}
     </div>
   );
 }
